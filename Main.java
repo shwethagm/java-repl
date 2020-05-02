@@ -1,5 +1,5 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("my java!");
+    System.out.println("my java tutorial programs !");
   }
 }
