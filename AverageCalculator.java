@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AverageCalculator{
 
-public void getAverageOfNumbers(){
+public void getAverage(){
 
 int num1;
 int num2;
@@ -20,7 +20,8 @@ num2=Integer.valueOf(scanner.nextLine());
 sum=num1+num2;
 //count++;
 
-System.out.println(sum);
+System.out.println("sum of num1="+num1+"  num2="+num2 + " is  sum="+sum);
+
 //SYstem.out.println(count);
 }
 
