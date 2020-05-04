@@ -11,8 +11,16 @@ class Main {
     // nc.getCount();
     // SumOfNumbers nc=new SumOfNumbers();
     // nc.getSum();
-    CountAndSum nc=new CountAndSum();
-    nc.getCountAndSum();
+    // CountAndSum nc=new CountAndSum();
+    // nc.getCountAndSum();
+   // AverageOfNumbers an=new AverageOfNumbers();
+    //PrintNumbers pn=new PrintNumbers();
+    //pn.getNumber();
+    //SumOfSequence ss=new SumOfSequence();
+    //ss.getSumS();
+    Factorial ff=new Factorial(); 
+    ff.getFactorial();   //an.getAverage();
+    //an.getAVerageOfPositive();
     //AverageCalculator avg=new AverageCalculator();
     //SpeedingTicket st=new SpeedingTicket();
     //SquarerootCalculator sc=new SquarerootCalculator();
