@@ -7,8 +7,12 @@ class Main {
     //pum.getPositive();
     // NumberOfNumbers nn=new NumberOfNumbers();
     // nn.getZero();
-    NegativeCount nc=new NegativeCount();
-    nc.getCount();
+    // NegativeCount nc=new NegativeCount();
+    // nc.getCount();
+    // SumOfNumbers nc=new SumOfNumbers();
+    // nc.getSum();
+    CountAndSum nc=new CountAndSum();
+    nc.getCountAndSum();
     //AverageCalculator avg=new AverageCalculator();
     //SpeedingTicket st=new SpeedingTicket();
     //SquarerootCalculator sc=new SquarerootCalculator();

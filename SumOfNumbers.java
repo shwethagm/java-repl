@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 class SumOfNumbers{
 
-  public void getCount(){
+  public void getSum(){
 
     Scanner input=new Scanner(System.in);
-    int numberEntry=0;
+    int sum=0;
 
     while(true)
     {
@@ -15,14 +15,10 @@ class SumOfNumbers{
         
         break;
           }
-      else if(num < 0){
-      numberEntry=numberEntry+1;
-
-      }
-      else if(num >0){
+      sum=sum+num;
         continue;
       }
+       System.out.println(sum);
     }
-    System.out.println(numberEntry);
+   
   }
-}
