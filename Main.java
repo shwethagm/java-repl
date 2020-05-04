@@ -5,8 +5,10 @@ class Main {
     //el.exitLoop();
     //PositiveNumber pum=new PositiveNumber();
     //pum.getPositive();
-    NumberOfNumbers nn=new NumberOfNumbers();
-    nn.getZero();
+    // NumberOfNumbers nn=new NumberOfNumbers();
+    // nn.getZero();
+    NegativeCount nc=new NegativeCount();
+    nc.getCount();
     //AverageCalculator avg=new AverageCalculator();
     //SpeedingTicket st=new SpeedingTicket();
     //SquarerootCalculator sc=new SquarerootCalculator();
