@@ -18,8 +18,10 @@ class Main {
     //pn.getNumber();
     //SumOfSequence ss=new SumOfSequence();
     //ss.getSumS();
-    Factorial ff=new Factorial(); 
-    ff.getFactorial();   //an.getAverage();
+    LargeProgram lp=new LargeProgram();
+    lp.getNumber();
+    // Factorial ff=new Factorial(); 
+    // ff.getFactorial();   //an.getAverage();
     //an.getAVerageOfPositive();
     //AverageCalculator avg=new AverageCalculator();
     //SpeedingTicket st=new SpeedingTicket();
