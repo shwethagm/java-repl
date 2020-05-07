@@ -1,21 +1,23 @@
-import java.util.Scanner;
+class Factorial {
 
-class Factorial{
+    static void test() {
+        new Factorial().getFactorial(5);
+        new Factorial().getFactorial(10);
+        new Factorial().getFactorial(11);
 
-public void getFactorial(){
+    }
 
-  Scanner scanner=new Scanner(System.in);
+    public static int getFactorial(int num) {
 
-  System.out.println("Enter the number");
+        if (num == 1) {
+            return 1;
+        }
+        int i = num;
+        int fact = 1;
 
-  int num=Integer.valueOf(scanner.nextLine());
-  int i=1;
-  int fact=1;
+        int result = fact * Factorial.getFactorial(num - 1);
+        System.out.println(result);
+        return result;
+    }
 
-  while(i<=num){
-    fact=fact*i;
-    i++;
-  }
-System.out.println(fact);
-}
 }
