@@ -1,6 +1,6 @@
 class Main {
     public static void main(String[] args) {
-        Learning.test();
+        P3ArrayIndexFind2.test();
 
     }
 }
