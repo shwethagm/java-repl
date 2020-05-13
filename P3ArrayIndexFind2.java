@@ -16,18 +16,18 @@ public class P3ArrayIndexFind2 {
         numbers[2] = 1000;
         numbers[3] = 10000;
         numbers[4] = 100000;
+        System.out.println("Enter the number to search");
+        int num = Integer.valueOf(scanner.nextLine());
         int i = 0;
         while (i < numbers.length) {
-
-            System.out.println("Enter the number to search");
-
-            int num = Integer.valueOf(scanner.nextLine());
             if (num == numbers[i]) {
                 System.out.println(num + " is at index " + i);
+                i++;
                 break;
             } else {
+
                 System.out.println(num + " was not found");
-                break;
+
             }
         }
 
